@@ -1,0 +1,6 @@
+# MotifScale: the only knob you normally touch is `budget`.
+budget: 0.05        # fraction of windows examined as motif candidates (compute vs representativeness)
+window: 32          # motif length in samples (SKAB: 32 s; TEP uses window_tep)
+window_tep: 10      # TEP sampling is 3 min, so 10 samples = 30 min
+radius: auto       # "covered" if RMS distance <= radius; auto = median NN distance in a 1000-window sample (noise floor)
+seeds: [0, 1, 2]
