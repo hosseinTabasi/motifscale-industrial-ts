@@ -1,0 +1,10 @@
+dataset,method,auc_pr_mean,auc_pr_std,auc_roc_mean,auc_roc_std,f1_best_mean,f1_best_std,f1_best_pa_mean,f1_best_pa_std,f1_ref_thr_mean,f1_ref_thr_std,f1_ref_thr_pa_mean,f1_ref_thr_pa_std,score_seconds_mean,score_seconds_std
+SKAB (33 runs),1-NN all reference windows,0.8102,,0.7958,,0.7953,,0.8822,,0.7026,,0.7026,,1.1614,
+SKAB (33 runs),Isolation Forest (windows),0.7977,0.0146,0.7903,0.0179,0.7837,0.0167,0.9024,0.0104,0.7831,0.0168,0.8426,0.0117,0.4229,0.0715
+SKAB (33 runs),Matrix-profile AB-join discord,0.6172,,0.5757,,0.7025,,0.9614,,,,,,36.7199,
+SKAB (33 runs),MotifScale-coreset (ours),0.8206,0.0018,0.8075,0.0022,0.792,0.0003,0.9027,0.0031,0.7918,0.0002,0.8254,0.0009,0.0594,0.055
+SKAB (33 runs),PCA T2+SPE,0.8121,,0.7851,,0.765,,0.9241,,0.7593,,0.8574,,0.0045,
+TEP (21 faults),1-NN all reference windows,0.9854,,0.9262,,0.9263,,0.9996,,0.9091,,0.9091,,1.0262,
+TEP (21 faults),Isolation Forest (windows),0.9698,0.0014,0.866,0.0059,0.9215,0.0003,0.9996,0.0002,0.7502,0.0126,0.9907,0.0017,0.4631,0.1967
+TEP (21 faults),MotifScale-coreset (ours),0.9845,0.0001,0.9222,0.0005,0.925,0.0009,0.9998,0.0001,0.8866,0.0037,0.9899,0.0008,0.0777,0.0321
+TEP (21 faults),PCA T2+SPE,0.9789,,0.8945,,0.9164,,0.9999,,0.8837,,0.9773,,0.0102,
